@@ -1,0 +1,178 @@
+.specials {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex start;
+  align-items: center;
+  position: absolute;
+  top: 630px;
+  left: 350px;
+  width: 1100px;
+  height: 555px;
+}
+
+.specials-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specials-top h1 {
+  font-family: "karla";
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46px;
+  position: relative;
+  margin-right: 490px;
+}
+
+.specials-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 40px;
+}
+.card {
+  height: 439px;
+  width: 265px;
+  background: #edefee;
+  border-radius: 16px;
+}
+
+.card img {
+  width: 265px;
+  height: 185px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.card .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 20px;
+}
+
+.card .item .item-name {
+  font-family: "Markazi Text";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card .item .item-price {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ee9972;
+}
+
+.card .item-description {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  height: 115px;
+  color: #495e57;
+  margin: 20px;
+}
+
+.card .delivery {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 20px;
+  display: flex;
+
+  align-items: center;
+}
+
+.card .delivery .icon-scooter {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.card .delivery .order {
+  cursor: pointer;
+}
+
+.specials .btn {
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #f4ce14;
+  color: #333333;
+  border-radius: 16px;
+  border: none;
+}
+
+.specials .btn:hover {
+  cursor: pointer;
+  background-color: #333333;
+  color: #f4ce14;
+  transition: 0.3s;
+}
+
+@media (max-width: 700px) {
+  .specials {
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .specials-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    top: -110px;
+  }
+
+  .specials-top h1 {
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+
+  .specials .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f4ce14;
+    color: #333333;
+    border-radius: 5px;
+    border: none;
+    margin-left: 25px;
+  }
+
+  .specials-card {
+    position: relative;
+    left: 20px;
+    top: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .specials-card .card {
+    margin: 20px 10px;
+    width: 310px;
+  }
+
+  .card img {
+    width: 310px;
+    height: 205px;
+    border-radius: 16px 16px 0px 0px;
+  }
+}
