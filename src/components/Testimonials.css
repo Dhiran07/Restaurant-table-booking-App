@@ -1,0 +1,114 @@
+.testimonials {
+  position: absolute;
+  top: 1185px;
+
+  background: #edefee;
+  width: 100%;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials h1 {
+  font-family: "Markazi Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 43px;
+
+  color: #333333;
+  position: relative;
+  top: -40px;
+  right: 40px;
+}
+
+.test-cards {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 990px;
+  right: 40px;
+}
+
+.test-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 335px;
+  width: 220px;
+  background: white;
+  border-radius: 16px;
+}
+
+.test-profile img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  position: relative;
+  top: -10px;
+}
+
+.test-star {
+  position: relative;
+  top: -15px;
+  color: rgb(227, 200, 24);
+}
+
+.test-profile h4 {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  position: relative;
+  left: 5px;
+  color: #000000;
+  margin: 5px;
+}
+
+.review {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 10px;
+  color: #000000;
+}
+
+@media (max-width: 700px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1600px;
+
+    height: 1350px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .testimonials h1 {
+    right: -10px;
+  }
+  .test-cards {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: -10px;
+    width: 100%;
+  }
+
+  .test-card {
+    margin: 20px;
+    width: 450px;
+    height: 250px;
+  }
+}

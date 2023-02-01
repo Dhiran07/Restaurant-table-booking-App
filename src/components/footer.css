@@ -1,8 +1,7 @@
 footer {
   display: flex;
-  position: absolute;
-  top: 1500px;
-  right: 0;
+  position: relative;
+  bottom: -1450px;
   width: 100%;
   flex-direction: column;
   justify-content: center;
@@ -86,17 +85,19 @@ footer ul li a {
 @media (max-width: 700px) {
   footer {
     position: absolute;
-    top: 3000px;
+    top: 4040px;
     right: -10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
   }
 
   footer img {
     margin-bottom: -10px;
     margin-top: 40px;
+    
   }
 
   .footer-column-1,

@@ -1,0 +1,118 @@
+.chicago img {
+  width: 350px;
+  height: 233px;
+  border-radius: 20px;
+}
+
+.chicago {
+  height: 330px;
+  position: relative;
+  top: 1290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-chicago {
+  width: 456px;
+  margin: 20px;
+}
+
+.left-chicago h2 {
+  font-family: "Markazi Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  margin-bottom: -20px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.left-chicago h3 {
+  font-family: "Markazi Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+
+  color: #333333;
+}
+
+.left-chicago p {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: justify;
+  margin-top: 10px;
+
+  color: #000000;
+}
+.right-chicago {
+  width: 472px;
+  margin: 10px;
+}
+
+.chicago .img1 {
+  position: relative;
+  top: 120px;
+  left: 110px;
+  z-index: 4;
+}
+
+.chicago .img2 {
+  position: relative;
+  top: 70px;
+  z-index: 3;
+}
+
+@media (max-width: 700px) {
+  .chicago {
+    position: relative;
+    top: 1600px;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(102, 102, 102);
+  }
+
+  .right-chicago {
+    display: none;
+  }
+
+  .left-chicago h2 {
+    font-family: "Markazi Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: -20px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+
+  .left-chicago h3 {
+    font-family: "Markazi Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+
+    color: #333333;
+  }
+
+  .left-chicago p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 10px;
+
+    color: #000000;
+  }
+}
