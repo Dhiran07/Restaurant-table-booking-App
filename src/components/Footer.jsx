@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="navigation foot-nav">Navigation</div>
               <ul>
                 <li>
-                  <a href="Home">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
                   <a href="About">About</a>
@@ -44,16 +44,16 @@ const Footer = () => {
               <div className="social foot-nav">Social Media Links</div>
               <ul>
                 <li>
-                  <a href="#">Follow on Instagram</a>
+                  <a href="/">Follow on Instagram</a>
                 </li>
                 <li>
-                  <a href="#">Follow on Facebook</a>
+                  <a href="/">Follow on Facebook</a>
                 </li>
                 <li>
-                  <a href="#">Follow on Twitter</a>
+                  <a href="/">Follow on Twitter</a>
                 </li>
                 <li>
-                  <a href="#">Subscribe on Youtube</a>
+                  <a href="/">Subscribe on Youtube</a>
                 </li>
               </ul>
             </div>

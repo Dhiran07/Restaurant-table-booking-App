@@ -1,18 +1,12 @@
-import React from "react";
-import Header from "./components/Header";
-// import Nav from "./components/Nav";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import BookingPage from "./pages/BookingPage";
+import HomePage from "./pages/HomePage";
 
+const router = createBrowserRouter([{ path: "/", element: <HomePage /> },
+{path:"/reservations", element: <BookingPage />}]);
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

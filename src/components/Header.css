@@ -41,3 +41,27 @@ nav ul li a {
   color: black;
   margin-right: 30px;
 }
+
+
+@media (max-width: 700px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+
+nav{
+    display: none;
+}
+
+header{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+header img{
+    position: relative;
+    top: 0;
+    left: -60px;
+    height: 45px;
+}
+
+
+}

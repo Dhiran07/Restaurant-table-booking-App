@@ -1,0 +1,5 @@
+.list a:hover,
+.list a.active {
+  text-decoration: underline;
+  color: rgb(138, 137, 137);
+}

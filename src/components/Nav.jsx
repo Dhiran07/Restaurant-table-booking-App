@@ -1,18 +1,49 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import classes from "./Nav.module.css";
 
 const Nav = () => {
-  return <>
-  <nav>
-      <ul>
-          <li><a href="Home" >Home</a></li>
-          <li><a href="About" >About</a></li>
-          <li><a href="Menu" >Menu</a></li>
-          <li><a href="Reservations" >Reservations</a></li>
-          <li><a href="OrderOnline" >Order Online</a></li>
-          <li><a href="Login" >Login</a></li>
-      </ul>
-  </nav>
-  </>;
+  return (
+    <>
+      <nav>
+        <ul className={classes.list}>
+          <li className={classes.list}>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+              end
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/About">About</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Menu">Menu</NavLink>
+          </li>
+          <li className={classes.list}>
+            <NavLink
+              to="/Reservations"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              Reservations
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/OrderOnline">Order Online</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Login">Login</NavLink>
+          </li>
+        </ul>
+      </nav>
+    </>
+  );
 };
 
 export default Nav;
